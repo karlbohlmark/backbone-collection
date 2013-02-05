@@ -1,0 +1,19 @@
+<!doctype html>
+<meta charset="utf8">
+<script src="build/build.js">
+	
+</script>
+
+<script>
+	var Collection = require('backbone-collection');
+	var MyCollection = Collection.extend({
+		initialize: function () {
+			console.log('initialize');
+		},
+		parse: function () {
+
+		}
+	});
+
+	var collection = new MyCollection();
+</script>

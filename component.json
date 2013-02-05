@@ -1,0 +1,21 @@
+{
+  "name": "backbone-collection",
+  "repo": "karlbohlmark/backbone-collection",
+  "description": "Backbone collection component",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "karlbohlmark/backbone-sync": "*",
+    "karlbohlmark/backbone-wrap-error": "*",
+    "karlbohlmark/backbone-model": "*",
+    "karlbohlmark/backbone-extend": "*",
+    "component/underscore": "*",
+    "matthewmueller/events": "*",
+    "karlbohlmark/model": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}
